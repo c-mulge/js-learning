@@ -38,3 +38,10 @@ myfun()
 console.log(typeof hero);   //typeof ==>object
 console.log(typeof myObj);  //typeof ==>object
 console.log(typeof myfun);
+
+
+
+// Memory
+
+//Stack and Heap memory
+//Primitve type uses stack memory and non-Primtive uses heap memory
