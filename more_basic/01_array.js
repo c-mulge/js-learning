@@ -4,6 +4,10 @@
 const myArr=[0,1,2,3,4]
 const myArr2=new Array(1,2,3,4,5)
 
+const nArray=["a","b","c","d"]
+console.log(nArray);
+
+
 // console.log(myArr[1]);    //1
 
 //array methods
@@ -16,7 +20,8 @@ const myArr2=new Array(1,2,3,4,5)
 // myArr.shift()
 
 // console.log(myArr.indexOf(0));
-// console.log(myArr.includes(2));
+// console.log(myArr.toLocaleString());
+console.log(myArr.includes(2));
 
 const newArr=myArr.join()  //changes the type of array to string
 

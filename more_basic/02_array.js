@@ -5,12 +5,14 @@ marvel_heros.push(dc_heros)
 
 // console.log(marvel_heros[3]);  //adds the array itself in an array
 
-//concat method to merge arrays
+//concat method to merge arrays but need to declare in new variable
 
 const allheros= marvel_heros.concat(dc_heros)
 // console.log(allheros);
 
-const allnewheros=[...marvel_heros,...dc_heros]    //spread method to merge array
+
+//Spread Method
+const allnewheros=[...marvel_heros,...dc_heros]//spread method to merge array
 // console.log(allnewheros);
 
 
