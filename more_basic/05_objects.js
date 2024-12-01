@@ -11,6 +11,8 @@ const course={
 // const {instructor}=course   // same as below
 const {instructor: ins}=course    //ins is shortcut for instructor
 console.log(ins);
+const {price:p}=course
+console.log(p)
 
 // const navbar=({company})=>{
 
